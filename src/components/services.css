@@ -1,0 +1,46 @@
+.services {
+  padding: 80px 5%;
+  background: #252525;
+  color: white;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-box {
+  background: #1a1a1a;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+}
+
+.service-box:hover {
+  background: #222;
+  border-color: #00bcd4;
+  transform: scale(1.05);
+}
+
+.service-box i {
+  font-size: 2.5rem;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+.service-box h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.service-box p {
+  color: #aaa;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Icons ko center karne ke liye Font Awesome zaroori hai */
