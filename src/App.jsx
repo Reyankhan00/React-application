@@ -15,12 +15,7 @@ import Contact from './Components/Contact.jsx'
 
 // CSS Imports - Inka path aur spelling check karein
 // Agar error aye to check karein 'navbar.css' hai ya 'Navbar.css'
-import './Components/navbar.css'
-import './Components/hero.css'
-import './Components/about.css'
-import './Components/projects.css'
-import './Components/services.css'
-import './Components/contact.css'
+
 
 function App() {
   return (
