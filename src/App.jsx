@@ -4,17 +4,17 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
 import './components/navbar.css'
-import Hero from './components/Hero'
+import Hero from './components/Hero.jsx'
 import './components/hero.css'
-import About from './components/About'
+import About from './components/About.jsx'
 import './components/about.css'
-import Projects from './components/projects'
+import Projects from './components/Projects.jsx'
 import './components/projects.css'
-import Services from './components/services'
+import Services from './components/Services.jsx'
 import './components/services.css'
-import Contact from './components/contact'
+import Contact from './components/Contact.jsx'
 import './components/contact.css'
 
 function App() {
