@@ -4,18 +4,18 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import React from 'react';
-import Navbar from './components/Navbar.jsx';
-import './components/navbar.css'
-import Hero from './components/Hero.jsx'
-import './components/hero.css'
-import About from './components/About.jsx'
-import './components/about.css'
-import Projects from './components/Projects.jsx'
-import './components/projects.css'
-import Services from './components/Services.jsx'
-import './components/services.css'
-import Contact from './components/Contact.jsx'
-import './components/contact.css'
+import Navbar from './Components/Navbar.jsx';
+import './Components/navbar.css'
+import Hero from './Components/Hero.jsx'
+import './Components/hero.css'
+import About from './Components/About.jsx'
+import './Components/about.css'
+import Projects from './Components/Projects.jsx'
+import './Components/projects.css'
+import Services from './Components/Services.jsx'
+import './Components/services.css'
+import Contact from './Components/Contact.jsx'
+import './Components/contact.css'
 
 function App() {
   return (
